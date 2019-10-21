@@ -70,7 +70,7 @@ namespace CosmosDBDemo
         /// Entry point to call methods that operate on Azure Cosmos DB resources in this sample
         /// </summary>
         /// <returns></returns>
-        public async Task GetStartedDemoAsync()
+        private async Task GetStartedDemoAsync()
         {
             // Create a new instance of the Cosmos Client
             cosmosClient = new CosmosClient(settings.EndpointUri, settings.PrimaryKey);
